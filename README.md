@@ -1,8 +1,8 @@
-# FlyRank ML Internship
+# FlyRank AI Internship Portfolio
 
-This repository contains my completed assignments and experiments from the FlyRank Machine Learning Internship program.
+This repository contains my assignments, experiments, and learning journey from the FlyRank AI Internship program.
 
-## Contents
+## Machine Learning Track
 
 ### Notebook 01: First Look and Discovery
 - Ran a complete machine learning pipeline using anonymized search data.
@@ -15,13 +15,23 @@ This repository contains my completed assignments and experiments from the FlyRa
 - Compared model performance with a manual approach.
 - Explored the concept of data leakage and why it should be avoided.
 
+## General AI Fluency Track
+
+### Week 1: Draw the Path - Portfolio Sitemap + Toolkit
+- Created a portfolio sitemap to organize my professional online presence.
+- Configured a Claude Project with custom instructions.
+- Used AI feedback to improve my portfolio structure.
+
 ## Tools Used
+
 - Python
 - Google Colab
 - Pandas
 - NumPy
 - Scikit-learn
+- Claude AI
+- Canva
 
 ## Purpose
 
-The goal of this repository is to document my learning journey in applied machine learning, including data exploration, model evaluation, and building interpretable ML solutions.
+The goal of this repository is to document my growth in Artificial Intelligence, Machine Learning, and Data Analytics by showcasing practical assignments, experiments, and projects completed during the FlyRank AI Internship.

@@ -57,7 +57,7 @@ Machine learning can identify patterns in search and engagement data that may no
 * `work/notebooks/w01_research_question.ipynb`
 ---
 
-## Week 2: ML Task Framing Completed
+## Week 2: ML Task Framing 
 
 Completed the ML-03 assignment: **Frame Your Lane as an ML Task**.
 

@@ -55,7 +55,35 @@ Machine learning can identify patterns in search and engagement data that may no
 **Notebook:**
 
 * `work/notebooks/w01_research_question.ipynb`
+---
 
+## Week 2: ML Task Framing Completed
+
+Completed the ML-03 assignment: **Frame Your Lane as an ML Task**.
+
+The goal was to transform the Refresh / Content Opportunity Scoring idea into a clear machine learning problem by defining:
+
+* The ML task type.
+* The prediction target or proxy label.
+* A measurable success metric.
+* The unit of analysis.
+* Why machine learning is more suitable than a fixed rule.
+
+### Key Outcomes
+
+* Framed the problem as a **binary classification task**.
+* Created an `opportunity_proxy` target using observed search performance signals.
+* Defined pages as possible content opportunities when:
+  * `trend_direction` is `"down"`
+  * `avg_position` is greater than `10`
+* Selected **ROC-AUC** as the evaluation metric because the goal is to prioritize pages for human review.
+* Confirmed that each dataset row represents one anonymized content page.
+
+**Notebook:**
+
+* `work/notebooks/w02_ml_task_framing.ipynb`
+
+---
 ---
 
 # General AI Fluency Track
@@ -126,7 +154,10 @@ The goal of this repository is to document my growth in Artificial Intelligence,
 This portfolio demonstrates my ability to:
 
 * Explore and analyze data.
+* Frame real-world problems as machine learning tasks.
 * Apply machine learning concepts.
 * Build and evaluate models.
 * Use AI tools responsibly.
 * Communicate technical work clearly.
+* Create evidence-based projects beyond traditional CV claims.
+

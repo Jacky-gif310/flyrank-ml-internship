@@ -163,7 +163,6 @@ The document includes:
 * Scikit-learn
 * Claude AI
 * Anthropic Academy
-* Canva
 * GitHub
 
 ---

@@ -86,6 +86,45 @@ The goal was to transform the Refresh / Content Opportunity Scoring idea into a 
 ---
 ---
 
+## Week 3: Search Intelligence Data Contract
+
+Completed the ML-04 assignment: **Search Intelligence Data Contract**.
+
+The goal was to define the data foundation for the Refresh / Content Opportunity Scoring lane before modeling by documenting how the dataset should be interpreted and used safely.
+
+### Key Outcomes
+
+* Defined the unit of analysis and clarified what each dataset row represents.
+* Documented the selected data tables, time window considerations, and modeling objective.
+* Identified the prediction target as a proxy decision-support signal rather than a true business outcome.
+* Defined safe feature candidates that are available at decision time.
+* Performed data quality checks to understand:
+  * Data availability limitations.
+  * Missing GSC and GA4 signals.
+  * Client history imbalance.
+  * Potential duplicate or overlapping records.
+* Documented excluded information to prevent leakage and maintain public-safe analysis.
+* Added honest limitations around:
+  * Observational relationships versus causal claims.
+  * Uneven data coverage.
+  * Lack of confirmed content refresh success labels.
+
+### Data Contract Considerations
+
+The analysis acknowledges that:
+
+* Observed search and engagement signals can support prioritization decisions but cannot prove that a content change will improve rankings or traffic.
+* Some pages have limited measurable signals due to missing GSC or GA4 data.
+* Client comparisons require caution because historical coverage differs across clients.
+* Future feature engineering requires careful aggregation and deduplication.
+
+**Notebook:**
+
+* `work/notebooks/w03_data_contract.ipynb`
+
+---
+---
+
 # General AI Fluency Track
 
 ## Week 1: Draw the Path - Portfolio Sitemap + Toolkit

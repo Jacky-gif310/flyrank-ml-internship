@@ -132,7 +132,28 @@ The statement focuses on:
 * Proof statement PDF
 
 ---
+---
 
+## Week 2: Frame It as Cases
+
+Completed the Week 2 AI Fluency assignment by transforming my internship work into portfolio-ready case studies that communicate the problem, my decisions, and the outcomes in my own voice.
+
+The document includes:
+
+* A personal **Voice Card** to guide consistent AI-assisted writing.
+* Framed case studies for my internship projects using:
+  * Problem
+  * What I did and the decisions I made
+  * Outcome
+* A professional bio tailored to my target audience.
+* A contact / call-to-action section.
+* A before-and-after comparison showing how I edited generic AI-generated writing into language that reflects my own experience and voice.
+
+**Deliverable:**
+
+* `general-ai-fluency/week 2/FlyRank_Week2_Frame_It_As_Cases_Jackline_Mutheu.pdf`
+
+---
 # Tools Used
 
 * Python

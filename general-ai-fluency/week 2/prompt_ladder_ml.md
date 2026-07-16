@@ -154,5 +154,5 @@
 > - Distinguish correlation from causation in the Limitations section — don't imply the model's output causes an outcome unless that's actually justified.
 > - Frame the solution as decision-support for a human reviewer, not an autonomous or causal prediction, unless stated otherwise.
 
-This works for someone else on the track because every bracket is fill-in-the-blank, and the quality-criteria block travels with the prompt regardless of what model you're asking it to design — it's the same four checks whether you're scoring content, churn, or fraud.
+This reusable prompt can be adapted to other machine learning tasks because the structure and quality criteria remain applicable across different prediction and ranking problems.
 

@@ -4,7 +4,7 @@
 
 **Introduction:** This prompt ladder demonstrates how adding one layer at a time — goal, context, audience, structure, and quality criteria — improves the usefulness, relevance, and reliability of AI responses for a machine learning task.
 
-\---
+---
 
 ## Version 0 — Baseline (Weak)
 
@@ -31,7 +31,7 @@
 * **What still failed:** "Content opportunities" is so vague the model had to ask what problem I'm even solving. The five-step answer is the generic ML pipeline you'd get for literally any prediction task — nothing here is specific to search data, SEO, or FlyRank.
 * **What I'd try next:** Give it an actual, named prediction goal.
 
-\---
+---
 
 ## Version 1 — Add a Clear Goal
 
@@ -53,7 +53,7 @@
 * **What still failed:** It's still guessing at what data actually exists. It assumed generic SEO metrics but doesn't know this is specifically FlyRank's dataset, doesn't know the product name, and doesn't know what fields are actually available or anonymized.
 * **What I'd try next:** Give it the actual dataset and product context.
 
-\---
+---
 
 ## Version 2 — Add Context (dataset + product, only)
 
@@ -74,7 +74,7 @@
 * **What still failed:** It's still explaining basic things I already know (what a regression problem is, what "ranking" means) — it doesn't know it's talking to someone with an ML background, so the explanation is padded with concepts an intern with Python/scikit-learn experience doesn't need spelled out.
 * **What I'd try next:** Tell it who it's actually explaining this to.
 
-\---
+---
 
 ## Version 3 — Add Audience (only)
 
@@ -93,7 +93,7 @@
 * **What still failed:** The answer is a dense, unstructured paragraph mixing target design, model choice, and validation strategy together. It's harder to scan or hand off to someone else than it needs to be.
 * **What I'd try next:** Ask for a structured format so each concern (features, target, model, validation, limitations) is separated.
 
-\---
+---
 
 ## Version 4 — Add Output Format
 
@@ -116,7 +116,7 @@
 * **What still failed (the honest "made it worse" moment):** The rigid sectioning fragmented reasoning that belongs together. "Time since last content update" got listed as a plain feature, but whether that's actually safe to use depends on *when* it's measured relative to the label — that's a leakage risk that logically belongs next to the Target Variable discussion, not buried as a bare bullet under Features. Version 3's denser paragraph, for all its scanability problems, at least kept related reasoning next to each other; forcing content into fixed buckets here scattered a concern that needed to be considered holistically, and the leakage risk got no real flag or discussion — it just quietly disappeared.
 * **What I'd try next:** Add explicit quality criteria that force it to check its own feature list for leakage and causal overreach, rather than trusting the section headers alone to produce rigor.
 
-\---
+---
 
 ## Version 5 — Final Reusable Prompt (Add Quality Criteria)
 
@@ -140,7 +140,7 @@
 * **What still failed:** It's still just reasoning about leakage and causality in the abstract — it hasn't actually seen the real anonymized dataset's schema, so "confirmed available at prediction time" is really more of a prompt to double-check than a verified fact.
 * **What I'd try next:** Feed it an actual (anonymized) sample of the dataset schema so the leakage check can be made against real columns instead of hypothetical ones.
 
-\---
+---
 
 ## Final Reusable Prompt
 

@@ -214,7 +214,29 @@ The document includes:
 **Deliverable:**
 
 * `general-ai-fluency/week 2/FlyRank_Week2_Frame_It_As_Cases_Jackline_Mutheu.pdf`
+---
 
+## Week 2: Prompt Iteration Log
+
+Completed the Prompting Fundamentals assignment by documenting how prompt engineering techniques improved AI-generated machine learning solutions for the **Refresh / Content Opportunity Scoring** capstone.
+
+The log demonstrates an iterative refinement process, progressing from a simple prompt to a reusable prompt template through multiple prompt engineering techniques.
+
+### Key Outcomes
+
+* Applied role assignment to improve domain-specific responses.
+* Added project context and business motivation to produce more relevant outputs.
+* Used few-shot examples to guide the model's reasoning style.
+* Specified an output structure to generate consistent technical reports.
+* Applied step decomposition to improve reasoning quality and reduce missing steps.
+* Compared responses from ChatGPT and Claude to identify their strengths and limitations.
+* Created a reusable prompt template for future machine learning design tasks.
+
+**Deliverable:**
+
+* `general-ai-fluency/week2/prompt_iteration_log.md`
+
+---
 ---
 # Tools Used
 

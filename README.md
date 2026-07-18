@@ -125,6 +125,29 @@ The analysis acknowledges that:
 ---
 ---
 
+## Week 3: ML Task Framing
+
+Completed the ML Task Framing assignment for the **Refresh / Content Opportunity Scoring** capstone by transforming a business problem into a well-defined machine learning task.
+
+The document defines the prediction objective, candidate features, proxy target, validation strategy, evaluation metrics, and model limitations while emphasizing decision support rather than causal claims.
+
+### Key Outcomes
+
+* Framed the problem as a **ranking / scoring** task.
+* Defined prediction-time features while considering data leakage.
+* Designed a proxy opportunity score using historical search performance signals.
+* Selected **HistGradientBoostingRegressor** as the candidate model.
+* Proposed time-aware validation to better reflect real-world deployment.
+* Selected Spearman Rank Correlation, Precision@K, and MAE as evaluation metrics.
+* Documented limitations around observational data and causation.
+
+**Deliverable:**
+
+* `machine-learning/week2/ml_task_framing.md`
+
+---
+---
+
 # General AI Fluency Track
 
 ## Week 1: Draw the Path - Portfolio Sitemap + Toolkit

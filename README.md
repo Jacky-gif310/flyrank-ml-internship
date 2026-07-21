@@ -238,6 +238,27 @@ The log demonstrates an iterative refinement process, progressing from a simple 
 
 ---
 ---
+---
+
+## Week 3: Decide Once — Build Your Identity Kit
+
+Completed the Week 3 AI Fluency assignment by defining a consistent visual identity to carry across all future portfolio pages and case studies.
+
+The kit documents the typography, color palette, logo, and style note as a single reusable design decision rather than choices repeated per page.
+
+### Key Outcomes
+
+* Selected **Newsreader** (headings) and **IBM Plex Sans** (body) as a deliberate, non-default type pairing.
+* Defined a tight four-color palette with named roles and hex codes: main, text, background, and a single accent.
+* Designed a simple JM monogram logo/favicon that stays legible down to 32px.
+* Wrote a two-line style note describing a calm, trustworthy, research-focused mood, and added it to my Claude Project so future builds inherit it automatically.
+
+**Deliverables:**
+
+* `general-ai-fluency/week 3/Build Your Identity Kit/identity-kit.html`
+* `general-ai-fluency/week 3/Build Your Identity Kit/logo.svg`
+* `general-ai-fluency/week 3/Build Your Identity Kit/README.md`
+---
 # Tools Used
 
 * Python

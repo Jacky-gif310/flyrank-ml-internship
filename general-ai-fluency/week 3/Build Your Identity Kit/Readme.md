@@ -1,5 +1,7 @@
 # Identity Kit — Jackline Mutheu
 
+🔗 [**View rendered identity kit**](https://htmlpreview.github.io/?https://github.com/Jacky-gif310/flyrank-ml-internship/blob/main/general-ai-fluency/week%203/Build%20Your%20Identity%20Kit/identity-kit.html)
+
 **Type:** Newsreader (headings) · IBM Plex Sans (body)
 
 **Palette:**

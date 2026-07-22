@@ -259,6 +259,23 @@ The kit documents the typography, color palette, logo, and style note as a singl
 * `general-ai-fluency/week 3/Build Your Identity Kit/logo.svg`
 * `general-ai-fluency/week 3/Build Your Identity Kit/README.md`
 ---
+
+## Week 3: Curate Your Images
+
+Completed the Week 3 AI Fluency assignment by selecting the image set for my portfolio and documenting the judgment behind each choice.
+
+### Key Outcomes
+
+* Mapped portfolio image needs to real project evidence rather than defaulting to AI-generated stand-ins.
+* Generated a hero graphic and a consistent icon set matching my Identity Kit palette, after comparing multiple style options.
+* Rejected a network/node-graph texture as an overused AI design cliché, and a scatter-field texture for lacking clear purpose without context.
+* Used real screenshots (GitHub, notebooks, charts, case studies) as proof of work rather than AI-generated substitutes.
+
+**Deliverables:**
+
+* `general-ai-fluency/week 3/Curate Your Images/README.md`
+* `general-ai-fluency/week 3/Curate Your Images/hero-texture-final.svg`
+* `general-ai-fluency/week 3/Curate Your Images/icon-set-final.svg`
 # Tools Used
 
 * Python

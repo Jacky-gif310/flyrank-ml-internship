@@ -276,8 +276,24 @@ Completed the Week 3 AI Fluency assignment by selecting the image set for my por
 * `general-ai-fluency/week 3/Curate Your Images/README.md`
 * `general-ai-fluency/week 3/Curate Your Images/hero-texture-final.svg`
 * `general-ai-fluency/week 3/Curate Your Images/icon-set-final.svg`
-# Tools Used
+---
 
+## Week 3: The Through-Line — Map Content & CTAs
+
+Completed the Week 3 AI Fluency assignment by defining the one-line claim my portfolio proves and mapping every page's sections and calls to action before building anything.
+
+### Key Outcomes
+
+* Generated ten one-line claim options, then picked and sharpened one: a concrete statement of what the capstone actually produces, rather than a generic "I do machine learning" claim.
+* Built a full content map across four pages (Home, Case Studies, Process/Approach, About), ordering sections so the strongest work — the Refresh / Content Opportunity Scoring capstone — leads.
+* Named a call to action for every page, laddering from soft, page-to-page prompts up to the one action from my Week 1 Proof Statement: getting a Machine Learning hiring manager to explore my GitHub repository.
+* Documented an honest "still need to gather" list (final model metrics, a live demo link, a mentor testimonial, before/after numbers) so build week isn't blocked by pretending unfinished work is done.
+
+**Deliverable:**
+
+* `general-ai-fluency/week 3/The Through-Line/README.md`
+---
+# Tools Used
 * Python
 * Google Colab
 * Pandas

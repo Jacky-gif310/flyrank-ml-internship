@@ -293,6 +293,92 @@ Completed the Week 3 AI Fluency assignment by defining the one-line claim my por
 
 * `general-ai-fluency/week 3/The Through-Line/README.md`
 ---
+---
+---
+
+## Week 4: Baseline Action Score and Top-10 Review
+
+Completed the ML-07 assignment by checking the signals behind my rule idea, encoding a single baseline rule, and reviewing my own top ten results with a skeptic's eye.
+
+### Key Outcomes
+
+* Checked two signals with bucket tables (n printed for each): staleness vs. decline rate came back **MIXED** (rises with staleness, then reverses at the most-stale tier — a real, honest complication); position vs. click-through rate came back **CONFIRMED** (a clean ~12x spread from best to worst position tier).
+* Encoded one rule — visible pages with a real CTR gap versus their position-tier peers — with a single score, one reason code, and tiered action labels.
+* Wrote the ranked queue (30,000 rows) from the notebook to `work/outputs/baseline_action_score.csv`.
+* Reviewed the top ten by hand, naming what would make each one wrong (e.g. a page with exactly 0% CTR on 208k impressions, worth checking for broken click-tracking before treating it as a title problem).
+* Called out a genuine weak pick: three of the top ten belonged to one client whose page sizes vary widely, showing the raw-impression-weighted score rewards scale, not necessarily the realest opportunity.
+* Confirmed no leakage: `trend_direction`/`trend_pct` (the label source) never used as a feature.
+
+**Notebook:**
+
+* `work/notebooks/w04_baseline_score.ipynb`
+
+---
+
+## Week 4: Ship an Automation Workflow v2
+
+Completed the FL-04 assignment by designing and running a four-step, no-code automation pipeline: a weekly AI/SEO industry brief, built as a Claude Project with structured, sequential prompts.
+
+### Key Outcomes
+
+* Designed the pipeline as four distinct steps with defined handoffs: Gather → Synthesize → Draft → Review & Format.
+* Ran the pipeline on five real topics (Google algorithm news, AI content disclosure policy, new LLM releases, AI content-marketing strategy, and Search Console/SEO tooling updates), each with real sourced facts, cross-source synthesis, and a finished brief.
+* Documented an honest time comparison: the workflow doesn't speed up finding sources, only synthesizing and drafting — setup cost nearly cancels out the savings on the first run, with payoff starting around run 2–3.
+* Named concrete failure points: syndicated sources that look like independent confirmation, secondhand quotes needing primary-source verification, and vendor-published benchmark claims that need outside checking.
+
+**Deliverable:**
+
+* `general-ai-fluency/week 4/Automation Workflow v2/README.md`
+
+---
+
+## Week 4: Agents, Workflows, and MCP
+
+Completed the Week 4 AI Fluency assignment by reading Anthropic's "Building Effective Agents" and the MCP introduction, then writing an explainer distinguishing workflows from agents and applying it to my own FL-04 pipeline.
+
+### Key Outcomes
+
+* Classified my FL-04 automation pipeline as a **workflow** (specifically prompt chaining), not an agent — I decide the step order and hand off between steps myself; the model never redirects its own process.
+* Explained MCP's three primitives (tools, resources, prompts) in terms of who controls each: tools are model-controlled, resources are application-controlled, prompts are user-controlled.
+* Connected a live MCP connector and ran three tasks that plain chat couldn't do on its own, with evidence of real tool calls.
+* Named one concrete upgrade path: giving the pipeline an actual search tool and letting the model decide, on its own, when it has gathered enough sources — rather than me pre-deciding that by hand.
+
+**Deliverable:**
+
+* `general-ai-fluency/week 4/Agents Workflows MCP/README.md`
+
+---
+
+## Week 4: Three Roads — Choose Your Stack with AI
+
+Completed the Week 4 AI Fluency assignment by giving AI my real constraints (free only, my skill level, my content map, and display needs) and having it lay out three genuine stack options before deciding.
+
+### Key Outcomes
+
+* Compared three options simplest to most powerful: plain HTML/CSS + GitHub Pages, Jekyll (GitHub Pages' native static-site generator), and React/Next.js + Vercel with a live model demo.
+* Pressure-tested the front-runner against real constraints: what breaks at the simplest option, what ongoing maintenance the most powerful option requires, whether I could finish in two weeks, and whether it displays my actual work.
+* Chose plain HTML/CSS + GitHub Pages — free, matches my current skill level, and fits my content map (long-form case studies, screenshot galleries, repo links) without solving for a live demo I don't have yet.
+* Answered the backend question honestly: not yet, since my capstone model isn't trained and evaluated.
+
+**Deliverable:**
+
+* `general-ai-fluency/week 4/Three Roads Stack Decision.md`
+
+---
+
+## Week 4: Empty but Live — Ship a Blank Page
+
+Completed the Week 4 AI Fluency assignment by shipping a real, reachable URL before build week starts.
+
+### Key Outcomes
+
+* Created a new repository and deployed a near-blank page via GitHub Pages — matching the stack chosen in the Three Roads assignment.
+* Confirmed the page is genuinely live by opening it on a second device (phone), not just the machine used to build it.
+* Loaded the identity kit, case studies, and content map into my Claude Project so build week starts with everything in one place.
+
+**Live URL:**
+
+* https://jacky-gif310.github.io/jackline-portfolio/
 # Tools Used
 * Python
 * Google Colab

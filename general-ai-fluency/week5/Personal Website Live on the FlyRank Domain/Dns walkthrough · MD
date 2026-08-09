@@ -1,0 +1,62 @@
+# DNS Walkthrough — jacky-gif310.github.io
+
+**Jackline Mutheu**
+
+## What a CNAME Record Is
+
+A CNAME record is a DNS record that says one hostname is an alias for another hostname. Instead of pointing directly to an IP address, it points to another domain name, which can then be looked up to find the final destination.
+
+I think of it like a forwarding note: "This name is an alias; look up this other name instead."
+
+## What Value Mine Will Hold
+
+When my FlyRank subdomain is eventually provisioned, the required DNS record will point my FlyRank hostname to the GitHub Pages hostname used for my website.
+
+For example, the structure could be:
+
+`jackline.flyrank.ai → jacky-gif310.github.io`
+
+The exact hostname and DNS value will depend on the configuration provided by FlyRank when my subdomain is provisioned.
+
+## What Happens When Someone Types My Address
+
+Suppose someone eventually types `jackline.flyrank.ai` into their browser.
+
+1. **The browser requests DNS information.**
+   The browser needs to find where the requested hostname is hosted, so it uses a DNS resolver.
+
+2. **The resolver finds the authoritative nameserver.**
+   The resolver follows the DNS hierarchy until it reaches the nameserver responsible for the relevant domain and its DNS records.
+
+3. **The nameserver returns the DNS record.**
+   The authoritative nameserver provides the record configured for the FlyRank hostname. If it is a CNAME, the record points to the GitHub Pages hostname.
+
+4. **The resolver follows the CNAME.**
+   Because a CNAME points to another hostname rather than directly to an IP address, the resolver looks up the target hostname and obtains the address needed to reach the hosting service.
+
+5. **The browser connects to the hosting service.**
+   Once the required address information is available, the browser connects to GitHub Pages and requests the website. GitHub Pages uses the configured custom-domain information to serve the correct website.
+
+6. **HTTPS protects the connection.**
+   The website is served over HTTPS, which encrypts communication between the visitor's browser and the website. When the custom domain is correctly configured and HTTPS is available, the browser displays the padlock/security indicator.
+
+## Why This Matters for Capstone Day
+
+The DNS configuration does not move my website files. My website remains hosted on GitHub Pages. The DNS configuration simply connects a new hostname to the existing hosting service.
+
+When my FlyRank subdomain is provisioned, I will:
+
+1. Confirm the DNS configuration provided by FlyRank.
+2. Add the FlyRank custom domain to my GitHub Pages settings.
+3. Configure or verify the required DNS record.
+4. Wait for DNS changes to propagate.
+5. Test the new address in a browser.
+6. Confirm that the website loads correctly over HTTPS.
+
+This means the website itself does not need to be rebuilt when the FlyRank subdomain becomes available. The domain simply becomes another way for visitors to reach the same hosted portfolio.
+
+## Simple Summary
+
+The process can be summarized as:
+
+**Visitor enters domain → DNS resolver finds the hostname → DNS record points to the hosting destination → GitHub Pages receives the request → website is served over HTTPS.**

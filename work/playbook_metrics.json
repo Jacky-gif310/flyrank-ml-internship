@@ -1,0 +1,25 @@
+{
+  "validation_set_size": 7115,
+  "validation_base_rate": 0.232,
+  "archetype_counts": {
+    "no_flag": 4156,
+    "ctr_gap_only": 2338,
+    "declining_other": 279,
+    "declining_and_ctr_gap": 202,
+    "declining_and_stale": 140
+  },
+  "archetype_observed_opportunity_rate": {
+    "ctr_gap_only": 0.28,
+    "declining_and_ctr_gap": 0.342,
+    "declining_and_stale": 0.286,
+    "declining_other": 0.28,
+    "no_flag": 0.194
+  },
+  "freshness_tier_opportunity_rate": {
+    "0-30": 0.27,
+    "181+": 0.207,
+    "31-90": 0.406,
+    "91-180": 0.361
+  },
+  "note": "All rates are observed, in-sample, decision-support figures - not causal claims. See Section 2 for scope limits."
+}

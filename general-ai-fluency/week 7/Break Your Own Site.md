@@ -16,6 +16,6 @@
 | No live model demo | Process | **Known limitation, not hidden** — documented on the Process page itself as a deliberate scope decision (no trained model to demo yet at build time) |
 | Formspree free tier has no server-side spam filtering beyond HTML5 `required` validation | About (contact form) | **Known limitation** — acceptable for a portfolio-scale contact form, would need a captcha or server-side check for higher traffic |
 ## Speed check
-PageSpeed Insights score for the homepage: **[fill in your score after running pagespeed.web.dev]**
+PageSpeed Insights score for the homepage: **[Desktop 99/100 Performance. Mobile — Performance 90, Accessibility 95, Best Practices 100, SEO 100.]**
 ## Outcome
 All fix-now items above are resolved and live. The two known limitations are named rather than hidden, and neither blocks core site function.

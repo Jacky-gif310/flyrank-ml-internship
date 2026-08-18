@@ -1,4 +1,4 @@
-# 🔎 Weekly AI/SEO Research Scout
+#  Weekly AI/SEO Research Scout
 
 > A small research agent that reads the internet so you don't have to — and knows when to stop.
 
@@ -172,4 +172,3 @@ One search surfaced six unrelated threads — a military AI story, a math-proof 
 
 ---
 
-<p align="center"><sub>Built with 🩶 as part of the FL-07 FlyRank AI Fluency checkpoint.</sub></p>
